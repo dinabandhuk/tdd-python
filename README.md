@@ -12,4 +12,6 @@ selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driv
 
 ## Concepts
 - Unit test --> from a programmer's perspective, verify correctness of internals
-- Functional test --> from a user's perspective, verify it delivers what is demanded
+- Functional test --> from a user's perspective, verify it delivers what is demandeds
+
+- Continue from [here](https://www.obeythetestinggoat.com/book/chapter_04_philosophy_and_refactoring.html)
