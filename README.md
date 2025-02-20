@@ -10,4 +10,6 @@ selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driv
 - Solution is to install [geckodriver](https://github.com/mozilla/geckodriver/releases) for Firefox .
 - I chose to `cargo install geckodriver` instead because it manages packaging and installation. Make sure your system has rust cargo installed.
 
-
+## Concepts
+- Unit test --> from a programmer's perspective, verify correctness of internals
+- Functional test --> from a user's perspective, verify it delivers what is demanded
