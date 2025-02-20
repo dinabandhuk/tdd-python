@@ -1,6 +1,9 @@
 # Test driven development in python
 Test driven development in python.\
-Based on [Obey the testing GOAT](https://www.obeythetestinggoat.com/book/pre-requisite-installations.html)
+**Based on [Obey the testing GOAT](https://www.obeythetestinggoat.com/book/pre-requisite-installations.html)**
+
+![testingGoat](./images/obey_the_testing_goat.png)
+**Always obey the testing goat. He is watching**
 
 ## Error Encountered
 ```bash
