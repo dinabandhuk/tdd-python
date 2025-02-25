@@ -21,3 +21,13 @@ selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driv
 - Instead of testing constants and static objects we should test the implementation\
 ![refactoringcat](./images/refactoring-cat.png)
 **Don't be like the refactoring cat and skip steps and get into a mess**
+
+- tdd cycle \
+![tdd red green cycle](./images/tdd-process-unit-tests-only-excalidraw.png)
+
+\
+![double loop Tdd](./images/double-loop-tdd-simpler.png)
+
+**Double loop Tdd when there are both unit and functional tests**
+
+[Continue from here](https://www.obeythetestinggoat.com/book/chapter_05_post_and_database.html)
