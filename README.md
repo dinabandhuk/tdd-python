@@ -11,10 +11,13 @@ Test driven development in python.\
 selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for firefox; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
 ```
 - Solution is to install [geckodriver](https://github.com/mozilla/geckodriver/releases) for Firefox .
-- I chose to `cargo install geckodriver` instead because it manages packaging and installation. Make sure your system has rust cargo installed.
+- I chose to `cargo install geckodriver` instead because it manages packaging and installation. Make sure your system has `rust` and  `cargo` installed.
 
 ## Concepts
 - Unit test --> from a programmer's perspective, verify correctness of internals
 - Functional test --> from a user's perspective, verify it delivers what is demandeds
 
-- Continue from [here](https://www.obeythetestinggoat.com/book/chapter_04_philosophy_and_refactoring.html)
+- Unit tests are about testing logic, flow control and configuration
+- Instead of testing constants and static objects we should test the implementation\
+![refactoringcat](./images/refactoring-cat.png)
+**Don't be like the refactoring cat and skip steps and get into a mess**
